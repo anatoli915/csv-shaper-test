@@ -1,0 +1,4 @@
+csv.headers :name, :age, :gender
+csv.rows @users do |csv, user|
+  csv.cells :name, :age, :gender
+end
