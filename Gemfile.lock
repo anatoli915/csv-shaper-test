@@ -107,7 +107,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  csv_shaper
+  csv_shaper (= 1.0.0)
   jquery-rails
   rails (= 3.2.11)
   sass-rails (~> 3.2.3)
