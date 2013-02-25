@@ -3,6 +3,7 @@ class UsersController < ApplicationController
 
   def index
     @users = User.all
+    @filename = "FOO-2.csv"
   end
 
 end
